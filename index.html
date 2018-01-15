@@ -1,0 +1,1661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header" style="height: 65px;padding-left: 83px;">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#example-navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo" href="#"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="">
+                        <a href="#">云产品</a>
+                    </li>
+                    <li class="">
+                        <a href="#">解决方案</a>
+                    </li>
+                    <li class="">
+                        <a href="#">云市场</a>
+                    </li>
+                    <li class="">
+                        <a href="#">合作与生态</a>
+                    </li>
+                    <li class="">
+                        <a href="#">文档与支持</a>
+                    </li>
+                </ul>
+                <ul id="nav-r" class="nav navbar-nav" style="float: right">
+                    <li class="">
+                        <a href="" style="padding-bottom: 0;">
+                            <i class="search"></i>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">免费体验</a>
+                    </li>
+                    <li class="border-li">
+                        <a href="#">|</a>
+                    </li>
+                    <li class="">
+                        <a href="#">备案</a>
+                    </li>
+                    <li class="border-li">
+                        <a href="#">|</a>
+                    </li>
+                    <li class="">
+                        <a href="#">English</a>
+                    </li>
+                    <li class="border-li">
+                        <a href="#">|</a>
+                    </li>
+                    <li class="">
+                        <a href="#">登陆</a>
+                    </li>
+                    <li class="" >
+                        <a href="#" style="padding: 22px 0;">
+                            <span>注册有礼</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" style="padding-right:62px;">
+                            <span>管理中心</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active lb1">
+                <a class="lb-bt lb1-bt" href="" style="">
+                    立即查看
+                </a>
+            </div>
+            <div class="item lb2">
+                <div class="lb2-box">
+                    <h2 class="lb-h2">
+                        <span>腾讯云技术公开课</span>
+                    </h2>
+                    <div class="des-text">
+                        <p>提问腾讯技术专家，如何从小白到大神</p>
+                    </div>
+                </div>
+                <a class="lb-bt lb2-bt" href="" style="">
+                    立即查看
+                </a>
+            </div>
+            <div class="item lb3">
+                <div class="lb2-box">
+                    <h2 class="lb-h2">
+                        <span>密钥管理服务上线</span>
+                    </h2>
+                    <div class="des-text">
+                        <p>轻松管理保密信息，助力巩固云上安全</p>
+                    </div>
+                </div>
+                <a class="lb-bt lb2-bt" href="" style="">
+                    立即查看
+                </a>
+            </div>
+            <div class="item lb4">
+                <a class="lb-bt lb1-bt" href="" style="">
+                    立即查看
+                </a>
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev" style="background-image: none;">
+            <i id="left"></i>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next" style="background-image: none">
+            <i id="right"></i>
+        </a>
+    </div>
+</header>
+<section>
+    <!-- 动态 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-3 f3">
+                <div class="f3-border-r">
+                    <img class="advertising-icon" src="img/picture1.png" alt="">
+                    <div class="advertising-text">
+                        <p class="title">
+                            免费套餐
+                            <i class="advertising-icon-new"></i>
+                        </p>
+                        <p class="content">最长6个月免费体验</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-3 f3">
+                <div class="f3-border-r">
+                    <img class="advertising-icon" src="img/picture2.png" alt="">
+                    <div class="advertising-text">
+                        <p class="title">
+                            <em>850元</em>代金券
+                        </p>
+                        <p class="content">新用户专享礼包</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-3 f3">
+                <div class="f3-border-r">
+                    <img class="advertising-icon" src="img/picture3.png" alt="">
+                    <div class="advertising-text">
+                        <p class="title">
+                            域名1元秒杀
+                            <i class="advertising-icon-new"></i>
+                        </p>
+                        <p class="content">多类域名超值抢购</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-3 f3">
+                <div class="f3-border-r">
+                    <img class="advertising-icon" src="img/picture4.png" alt="">
+                    <div class="advertising-text">
+                        <p class="title">
+                            <em>1元</em>学生特惠
+                        </p>
+                        <p class="content">服务器+域名仅需1元</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 解决方案 -->
+    <div class="solution">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 ct-slot" style="padding-left: 70px;padding-right: 70px">
+                    <h2 class="title">在这里有你所需的一切</h2>
+                    <div class="des-text">存储、计算、监控、安全...你所需要的一切云产品，腾讯云均能以业界领先的水平为你提供</div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 60px;padding-left: 70px;padding-right:70px" >
+                <div class="col-md-1ths ac-border" style="width: 34%;height: 477px;margin-top: -30px">
+                    <!-概要->
+                    <div class="so-overview" style="position: relative;display: none">
+                        <div class="so-overview-name">
+                            <span class="so-name-img compute"></span>
+                            <h3 class="name-title">计算<span class="icon-arrow"></span></h3>
+                        </div>
+                        <div class="" style="width: 40px;background-color: #d9d9d9;height: 1px;position: absolute;left: 40% "></div>
+                        <div class="so-overview-sub-menu">
+                            <ul class="menu-list">
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            云服务器
+                                            <span class="tip-label">优惠</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            GPU云服务器
+                                            <span class="tip-label">新品</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            FPGA云服务器
+                                            <span class="tip-label">新品</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            专用宿主机
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item-more">
+                                    <div class="title">
+                                        <div class="title-text">...</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-详细->
+                    <div class="pt-detail " style="display: block">
+                        <div class="pt-detail-name">
+                            <span class="pt-name-img compute"></span>
+                            <h3 class="name-title">计算<span class="icon-arrow"></span></h3>
+                        </div>
+                        <div class="pt-detail-sub-menu">
+                            <ul class="menu-list">
+                                <li class="menu-item ">
+                                    <div class="title">
+                                        <div class="title-text">云服务器</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="" class="qc-btn J-product-detail-btn">立即选购</a>
+                                            <span class="label">优惠</span>
+                                        </div>
+                                        <p class="des-text">稳定安全、高易用、可弹性伸缩的计算服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">GPU云服务器</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a class="qc-btn J-product-detail-btn" href="#">申请试用</a>
+                                            <span class="label">新品</span>
+                                        </div>
+                                        <p class="des-text">加速科学计算、视频编解码、深度学习的高性能计算服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">FPGA云服务器</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="#" class="qc-btn J-product-detail-btn">立即申请</a>
+                                            <span class="label">新品</span>
+                                        </div>
+                                        <p class="des-text">可编程、低功耗、低延时的硬件加速计算服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item ">
+                                    <div class="title">
+                                        <div class="title-text">专用宿主机</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="#" class="qc-btn J-product-detail-btn">立即选购</a>
+                                        </div>
+                                        <p class="des-text">独享宿主，安全、合规、灵活的计算服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item ">
+                                    <a href="#" class="m-link">更多产品</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1ths">
+                    <!-概要->
+                    <div class="so-overview" style="position: relative">
+                        <div class="so-overview-name">
+                            <span class="so-name-img compute" style="background-position: 50% 99.03999999999999%;"></span>
+                            <h3 class="name-title">网络<span class="icon-arrow"></span></h3>
+                        </div>
+                        <div class="" style="width: 40px;background-color: #d9d9d9;height: 1px;position: absolute;left: 40% "></div>
+                        <div class="so-overview-sub-menu">
+                            <ul class="menu-list">
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            负载均衡
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            私有网络
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            VPN连接
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            专线接入
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item-more">
+                                    <div class="title">
+                                        <div class="title-text">...</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-详细->
+                    <div class="pt-detail">
+                        <div class="pt-detail-name">
+                            <span class="pt-name-img compute" style="background-position: 25.36% 99.03999999999999%;"></span>
+                            <h3 class="name-title">网络<span class="icon-arrow"></span></h3>
+                        </div>
+                        <div class="pt-detail-sub-menu">
+                            <ul class="menu-list">
+                                <li class="menu-item ">
+                                    <div class="title">
+                                        <div class="title-text">负载均衡</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="" class="qc-btn J-product-detail-btn">立即选购</a>
+                                        </div>
+                                        <p class="des-text">对多台服务器进行流量分发的负载均衡服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">私有网络</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a  class="qc-btn J-product-detail-btn" href="#">申请试用</a>
+                                        </div>
+                                        <p class="des-text">构建独立的网络空间，灵活部署混合云</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">VPN连接</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="#" class="qc-btn J-product-detail-btn">立即申请</a>
+                                        </div>
+                                        <p class="des-text">轻松构建安全的IPsec VPN服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item ">
+                                    <div class="title">
+                                        <div class="title-text">专线接入</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="#" class="qc-btn J-product-detail-btn">立即选购</a>
+                                        </div>
+                                        <p class="des-text">稳定可靠的专用网络链路接入服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item ">
+                                    <a href="#" class="m-link">更多产品</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1ths">
+                    <!-概要->
+                    <div class="so-overview" style="position: relative">
+                        <div class="so-overview-name">
+                            <span class="so-name-img compute" style="background-position: 0.72% 66.35%;"></span>
+                            <h3 class="name-title">存储与CDN<span class="icon-arrow"></span></h3>
+                        </div>
+                        <div class="" style="width: 40px;background-color: #d9d9d9;height: 1px;position: absolute;left: 40% "></div>
+                        <div class="so-overview-sub-menu">
+                            <ul class="menu-list">
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            对象储存
+                                            <span class="tip-label">优惠</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            内容分发网络
+                                            <span class="tip-label">优惠</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            动态加速网络
+                                            <span class="tip-label">新品</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            云硬盘
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item-more">
+                                    <div class="title">
+                                        <div class="title-text">...</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-详细->
+                    <div class="pt-detail">
+                        <div class="pt-detail-name">
+                            <span class="pt-name-img compute " style="background-position: 50% 33.650000000000006%;"></span>
+                            <h3 class="name-title">存储与CDN<span class="icon-arrow"></span></h3>
+                        </div>
+                        <div class="pt-detail-sub-menu">
+                            <ul class="menu-list">
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">对象存储</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="" class="qc-btn J-product-detail-btn">立即选购</a>
+                                            <span class="label">优惠</span>
+                                        </div>
+                                        <p class="des-text">可靠、安全、易用的可扩展文件存储</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">内容分发网络</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a  class="qc-btn J-product-detail-btn" href="#">申请试用</a>
+                                            <span class="label">新品</span>
+                                        </div>
+                                        <p class="des-text">多节点全网覆盖、安全稳定的网络加速服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">动态加速网络</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="#" class="qc-btn J-product-detail-btn">立即申请</a>
+                                            <span class="label">新品</span>
+                                        </div>
+                                        <p class="des-text">极速、稳定、安全的动态请求加速服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item ">
+                                    <div class="title">
+                                        <div class="title-text">云硬盘</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="#" class="qc-btn J-product-detail-btn">立即选购</a>
+                                        </div>
+                                        <p class="des-text">可扩展、高性能、高可靠的云硬盘服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item ">
+                                    <a href="#" class="m-link">更多产品</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1ths">
+                    <!-概要->
+                    <div class="so-overview" style="position: relative">
+                        <div class="so-overview-name">
+                            <span class="so-name-img compute"></span>
+                            <h3 class="name-title">计算<span class="icon-arrow"></span></h3>
+                        </div>
+                        <div class="" style="width: 40px;background-color: #d9d9d9;height: 1px;position: absolute;left: 40% "></div>
+                        <div class="so-overview-sub-menu">
+                            <ul class="menu-list">
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            云服务器
+                                            <span class="tip-label">优惠</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            GPU云服务器
+                                            <span class="tip-label">新品</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            FPGA云服务器
+                                            <span class="tip-label">新品</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            专用宿主机
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item-more">
+                                    <div class="title">
+                                        <div class="title-text">...</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-详细->
+                    <div class="pt-detail">
+                        <div class="pt-detail-name">
+                            <span class="pt-name-img compute"></span>
+                            <h3 class="name-title">计算<span class="icon-arrow"></span></h3>
+                        </div>
+                        <div class="pt-detail-sub-menu">
+                            <ul class="menu-list">
+                                <li class="menu-item ">
+                                    <div class="title">
+                                        <div class="title-text">云服务器</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="" class="qc-btn J-product-detail-btn">立即选购</a>
+                                            <span class="label">优惠</span>
+                                        </div>
+                                        <p class="des-text">稳定安全、高易用、可弹性伸缩的计算服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">GPU云服务器</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a  class="qc-btn J-product-detail-btn" href="#">申请试用</a>
+                                            <span class="label">新品</span>
+                                        </div>
+                                        <p class="des-text">加速科学计算、视频编解码、深度学习的高性能计算服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">FPGA云服务器</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="#" class="qc-btn J-product-detail-btn">立即申请</a>
+                                            <span class="label">新品</span>
+                                        </div>
+                                        <p class="des-text">可编程、低功耗、低延时的硬件加速计算服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item ">
+                                    <div class="title">
+                                        <div class="title-text">专用宿主机</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="#" class="qc-btn J-product-detail-btn">立即选购</a>
+                                        </div>
+                                        <p class="des-text">独享宿主，安全、合规、灵活的计算服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item ">
+                                    <a href="#" class="m-link">更多产品</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1ths">
+                    <!-概要->
+                    <div class="so-overview" style="position: relative;">
+                        <div class="so-overview-name">
+                            <span class="so-name-img compute"></span>
+                            <h3 class="name-title">计算<span class="icon-arrow"></span></h3>
+                        </div>
+                        <div class="" style="width: 40px;background-color: #d9d9d9;height: 1px;position: absolute;left: 40%;"></div>
+                        <div class="so-overview-sub-menu">
+                            <ul class="menu-list">
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            云服务器
+                                            <span class="tip-label">优惠</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            GPU云服务器
+                                            <span class="tip-label">新品</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            FPGA云服务器
+                                            <span class="tip-label">新品</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">
+                                            专用宿主机
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item-more">
+                                    <div class="title">
+                                        <div class="title-text">...</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-详细->
+                    <div class="pt-detail" style="">
+                        <div class="pt-detail-name">
+                            <span class="pt-name-img compute"></span>
+                            <h3 class="name-title">计算<span class="icon-arrow"></span></h3>
+                        </div>
+                        <div class="pt-detail-sub-menu">
+                            <ul class="menu-list">
+                                <li class="menu-item ">
+                                    <div class="title">
+                                        <div class="title-text">云服务器</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="" class="qc-btn J-product-detail-btn">立即选购</a>
+                                            <span class="label">优惠</span>
+                                        </div>
+                                        <p class="des-text">稳定安全、高易用、可弹性伸缩的计算服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">GPU云服务器</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a class="qc-btn J-product-detail-btn" href="#">申请试用</a>
+                                            <span class="label">新品</span>
+                                        </div>
+                                        <p class="des-text">加速科学计算、视频编解码、深度学习的高性能计算服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="title">
+                                        <div class="title-text">FPGA云服务器</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="#" class="qc-btn J-product-detail-btn">立即申请</a>
+                                            <span class="label">新品</span>
+                                        </div>
+                                        <p class="des-text">可编程、低功耗、低延时的硬件加速计算服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item ">
+                                    <div class="title">
+                                        <div class="title-text">专用宿主机</div>
+                                    </div>
+                                    <div class="des">
+                                        <div class="shop">
+                                            <a href="#" class="qc-btn J-product-detail-btn">立即选购</a>
+                                        </div>
+                                        <p class="des-text">独享宿主，安全、合规、灵活的计算服务</p>
+                                    </div>
+                                </li>
+                                <li class="menu-item ">
+                                    <a href="#" class="m-link">更多产品</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="solutionWrapper">
+        <div class="bg-img"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" style="padding: 0">
+                    <div class="mod-title ct-slot">
+                        <h2 class="title">在云端继续你的业务</h2>
+                        <div class="des-text">不管你处于什么行业，腾讯云已定制多套解决方案，助你轻松跨入“互联网+”时代</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row solution-box" >
+                <div class="col-md-2 solution-list" style="">
+                    <ul class="solution-list-ul">
+                        <li>
+                            <a id="s-v" class="active-a" href="">视频</a>
+                        </li>
+                        <li>
+                            <a id="s-m" href="">医疗</a>
+                        </li>
+                        <li>
+                            <a id="s-g" href="">游戏</a>
+                        </li>
+                        <li>
+                            <a id="s-j" href="">金融</a>
+                        </li>
+                        <li>
+                            <a id="s-e" href="">电商</a>
+                        </li>
+                        <li>
+                            <a id="s-o" href="">O2O</a>
+                        </li>
+                        <li>
+                            <a id="s-w" href="">微信</a>
+                        </li>
+                        <li>
+                            <a id="s-l" href="">旅游</a>
+                        </li>
+                        <li>
+                            <a id="s-web" href="">网站</a>
+                        </li>
+                        <li>
+                            <a id="s-s" href="">智能插件</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-10 solution-de s-v" style="display:block">
+                    <div>
+                        <ul class="icon-img">
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-3.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-4.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-5.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-6.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-7.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="vertical-text">
+                            <div class="title">
+                                <img class="icon" src="img/s-v-tit.png">
+                            </div>
+                            <div class="des-text">
+                                <p>腾讯云为您的视频应用提供一站式解决方案。凭借直播点播、互动直播、云通信等产品，以及覆盖全国的视频发布网络、海量转码设备、数十年音视频领域深厚技术积淀，您可轻松具备全方位的视频能力支撑，全心专注于业务本身。</p>
+                            </div>
+                            <a hotrep="hp.solution.video.more" href="http://www.qcloud.com/solution/video.html" target="_blank" class="qc-btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 solution-de s-m" >
+                    <div>
+                        <ul class="icon-img">
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-2.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="vertical-text">
+                            <div class="title">
+                                <img class="icon" src="img/s-l-tit.png">
+                            </div>
+                            <div class="des-text">
+                                <p>致力于加速医疗互联网应用信息化建设，构建医疗云生态。 融合点播直播、互动直播、通信等能力，突破时空限制，实现远程医疗和协同；大数据处理，让海量医疗数据获得精准分析；海量存储、专线网络，构建影像管理平台。</p>
+                            </div>
+                            <a class="qc-btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 solution-de s-g" >
+                    <div>
+                        <ul class="icon-img">
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-2.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="vertical-text">
+                            <div class="title">
+                                <img class="icon" src="img/tit.png">
+                            </div>
+                            <div class="des-text">
+                                <p>腾讯云为您的视频应用提供一站式解决方案。凭借直播点播、互动直播、云通信等产品，以及覆盖全国的视频发布网络、海量转码设备、数十年音视频领域深厚技术积淀，您可轻松具备全方位的视频能力支撑，全心专注于业务本身。</p>
+                            </div>
+                            <a hotrep="hp.solution.video.more" href="http://www.qcloud.com/solution/video.html" target="_blank" class="qc-btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 solution-de s-j" >
+                    <div>
+                        <ul class="icon-img">
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-2.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="vertical-text">
+                            <div class="title">
+                                <img class="icon" src="img/tit.png">
+                            </div>
+                            <div class="des-text">
+                                <p>腾讯云为您的视频应用提供一站式解决方案。凭借直播点播、互动直播、云通信等产品，以及覆盖全国的视频发布网络、海量转码设备、数十年音视频领域深厚技术积淀，您可轻松具备全方位的视频能力支撑，全心专注于业务本身。</p>
+                            </div>
+                            <a class="qc-btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 solution-de s-e" >
+                    <div>
+                        <ul class="icon-img">
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-2.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="vertical-text">
+                            <div class="title">
+                                <img class="icon" src="img/tit.png">
+                            </div>
+                            <div class="des-text">
+                                <p>腾讯云为您的视频应用提供一站式解决方案。凭借直播点播、互动直播、云通信等产品，以及覆盖全国的视频发布网络、海量转码设备、数十年音视频领域深厚技术积淀，您可轻松具备全方位的视频能力支撑，全心专注于业务本身。</p>
+                            </div>
+                            <a class="qc-btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 solution-de s-o" >
+                    <div>
+                        <ul class="icon-img">
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-2.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="vertical-text">
+                            <div class="title">
+                                <img class="icon" src="img/tit.png">
+                            </div>
+                            <div class="des-text">
+                                <p>腾讯云为您的视频应用提供一站式解决方案。凭借直播点播、互动直播、云通信等产品，以及覆盖全国的视频发布网络、海量转码设备、数十年音视频领域深厚技术积淀，您可轻松具备全方位的视频能力支撑，全心专注于业务本身。</p>
+                            </div>
+                            <a class="qc-btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 solution-de s-w" >
+                    <div>
+                        <ul class="icon-img">
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-2.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="vertical-text">
+                            <div class="title">
+                                <img class="icon" src="img/tit.png">
+                            </div>
+                            <div class="des-text">
+                                <p>腾讯云为您的视频应用提供一站式解决方案。凭借直播点播、互动直播、云通信等产品，以及覆盖全国的视频发布网络、海量转码设备、数十年音视频领域深厚技术积淀，您可轻松具备全方位的视频能力支撑，全心专注于业务本身。</p>
+                            </div>
+                            <a class="qc-btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 solution-de s-l" >
+                    <div>
+                        <ul class="icon-img">
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-2.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="vertical-text">
+                            <div class="title">
+                                <img class="icon" src="img/tit.png">
+                            </div>
+                            <div class="des-text">
+                                <p>腾讯云为您的视频应用提供一站式解决方案。凭借直播点播、互动直播、云通信等产品，以及覆盖全国的视频发布网络、海量转码设备、数十年音视频领域深厚技术积淀，您可轻松具备全方位的视频能力支撑，全心专注于业务本身。</p>
+                            </div>
+                            <a class="qc-btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 solution-de s-web" >
+                    <div>
+                        <ul class="icon-img">
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-2.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="vertical-text">
+                            <div class="title">
+                                <img class="icon" src="img/tit.png">
+                            </div>
+                            <div class="des-text">
+                                <p>腾讯云为您的视频应用提供一站式解决方案。凭借直播点播、互动直播、云通信等产品，以及覆盖全国的视频发布网络、海量转码设备、数十年音视频领域深厚技术积淀，您可轻松具备全方位的视频能力支撑，全心专注于业务本身。</p>
+                            </div>
+                            <a class="qc-btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 solution-de s-s" >
+                    <div>
+                        <ul class="icon-img">
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-2.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="icon-li">
+                                <a href="">
+                                    <img src="img/s-d-1.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="vertical-text">
+                            <div class="title">
+                                <img class="icon" src="img/tit.png">
+                            </div>
+                            <div class="des-text">
+                                <p>腾讯云为您的视频应用提供一站式解决方案。凭借直播点播、互动直播、云通信等产品，以及覆盖全国的视频发布网络、海量转码设备、数十年音视频领域深厚技术积淀，您可轻松具备全方位的视频能力支撑，全心专注于业务本身。</p>
+                            </div>
+                            <a class="qc-btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 能力覆盖 start -->
+    <div class="map">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12" style="padding:0 40px">
+                    <div class="mod-title ct-slot">
+                        <h2 class="title">你的成功可以覆盖全球</h2>
+                        <div class="des-text">全球领先的云计算加速平台，让你的用户无论身在何处，均能获得灵活流畅的体验</div>
+                        <a class="qc-btn">了解更多</a>
+                    </div>
+                    <div class="mod-content ct-slot">
+                        <ul>
+                            <li class="merit-item">
+                                <span class="map-img-1"></span>
+                            </li>
+                            <li class="merit-item">
+                                <span class="map-img-2"></span>
+                            </li>
+                            <li class="merit-item data-item-3">
+                                <span class="map-img-3"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="map-box">
+                        <div class="map-img"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 数据 start -->
+    <div id="defenceWrapper" class="mod-wrap mod-wrap-dynamic">
+        <div class="mod-inner">
+            <div class="ct-slot">
+                <a class="ct-data">
+                    <span class="text">腾讯云天御已为用户抵御恶意攻击</span>
+                    <div class="data">
+                        <span id="defenceCount">152,020,835</span>
+                        次/周
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 服务市场 start -->
+    <div class="solution">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 ct-slot" style="padding-left: 70px;padding-right: 70px">
+                    <h2 class="title">更多的选择给你更大的可能性</h2>
+                    <div class="des-text">腾讯云服务市场联合第三方服务供应商，以更多的选择满足你业务全面的需求</div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 60px;padding-left: 70px;padding-right:70px" >
+                <div class="col-md-4 service-box ">
+                    <div class="service">
+                        <img class="service-img" src="img/jx.png" alt="">
+                        <div class="title">镜像服务</div>
+                        <div class="des-text">
+                            <p>基础环境 / 全能环境 / 管理与监控
+                                <br>
+                                建站模板 / 安全高可用 / Docker容器 / 业务管理
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 service-box ">
+                    <div class="service">
+                        <img class="service-img" src="img/rj.png" alt="">
+                        <div class="title">软件服务</div>
+                        <div class="des-text">
+                            <p>安全软件 / 网络监控 / 商业软件
+                                <br>
+                                管理工具 / 建站系统 / 企业办公 / 消息服务
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 service-box ">
+                    <div class="service">
+                        <img class="service-img" src="img/yw.png" alt="">
+                        <div class="title">运维服务</div>
+                        <div class="des-text">
+                            <p>数据迁移 / 故障排查 / 安全代维
+                                <br>
+                                日常代维 / Discuz代维 / 环境搭建
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 免费使用 start -->
+    <div class="map free">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12" style="padding:0 40px">
+                    <div class="mod-title ct-slot">
+                        <h2 class="title">免费体验，180天免费试用</h2>
+                        <div class="des-text">腾讯云体验馆，提供云服务器、云数据库、DDoS防御等免费试用机会，简单流程开启使用</div>
+                        <a class="qc-btn" style="color: #fff;border-color:#fff ">免费试用</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 热门动态 start -->
+    <div class="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 news-left">
+                    <div class="news-top">
+                        <h2 class="title">热门动态</h2>
+                        <div class="sub-tab">
+                            <ul class="news-title">
+                                <li class="sub-text sub-text-selected">
+                                    <a class="" href="">最新</a>
+                                </li>
+                                <li class="sub-text">
+                                    <a href="">产品动态</a>
+                                </li>
+                                <li class="sub-text">
+                                    <a href="">媒体报道</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 unit-box">
+                            <ul class="news-list">
+                                <li class="li-news">
+                                    <a class="news-item">
+                                        <span class="date">04.21</span>
+                                        <span class="stick">|</span>
+                                        <span class="text">【干货合辑】你有什么独家数据库优化技巧？</span>
+                                    </a>
+                                </li>
+                                <li class="li-news">
+                                    <a class="news-item">
+                                        <span class="date">04.21</span>
+                                        <span class="stick">|</span>
+                                        <span class="text">HTTP 2 的新特性你 get 了吗？</span>
+                                        <span class="label">hot</span>
+                                    </a>
+                                </li>
+                                <li class="li-news">
+                                    <a class="news-item">
+                                        <span class="date">04.21</span>
+                                        <span class="stick">|</span>
+                                        <span class="text">腾云阁【腾讯云的1001种玩法】征文活动</span>
+                                        <span class="label">hot</span></a>
+                                </li>
+                            </ul>
+                            <a href="">查看全部</a>
+                        </div>
+                        <div class="col-md-6 unit-box">
+                            <ul class="news-list">
+                                <li class="li-news">
+                                    <a class="news-item">
+                                        <span class="date">04.20</span>
+                                        <span class="stick">|</span>
+                                        <span class="text">【公开课直播】从小白到技术专家</span>
+                                    </a>
+                                </li>
+                                <li class="li-news">
+                                    <a class="news-item">
+                                        <span class="date">04.19</span>
+                                        <span class="stick">|</span>
+                                        <span class="text">【专题】如何从0到1搭建个人站点</span>
+                                        <span class="label">hot</span>
+                                    </a>
+                                </li>
+                                <li class="li-news">
+                                    <a class="news-item">
+                                        <span class="date">04.19</span>
+                                        <span class="stick">|</span>
+                                        <span class="text">【专题】如何从0到1搭建个人站点</span>
+                                        <span class="label">hot</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 news-right">
+                    <div class="row">
+                        <h2 class="title">长期活动</h2>
+                        <div class="col-md-12" style="padding: 0;margin-top: 10px;cursor: pointer">
+                            <img src="img/tg.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="qc-footer-action" id="g-footer-guide">
+        <div class="footer-action" data-id="g-footer-guide-1">
+            <div class="text">现在注册，可领取850元新手代金券</div>
+            <div class="op-btns">
+                <a href="" class="bt">免费注册</a>
+            </div>
+        </div>
+        <svg class="action-bg">
+            <g>
+                <defs>
+                    <linearGradient id="Gradient1">
+                        <stop offset="0%" stop-color="#fff" stop-opacity="0"></stop>
+                        <stop offset="99%" stop-color="#fff" stop-opacity="0.2"></stop>
+                        <stop offset="99.9%" stop-color="#fff" stop-opacity="0.8"></stop>
+                        <stop offset="100%" stop-color="#fff" stop-opacity="0.8"></stop>
+                    </linearGradient>
+                </defs>
+                <!--第1行三种线条 start-->
+                <rect x="555.164" y="30" width="200" height="2" stroke="white" stroke-width="0" fill="url(#Gradient1)">
+                    <animate attributeName="x" from="0" by="100%" begin="0" dur="15s" repeatCount="indefinite"></animate>
+                </rect>
+                <!--第1行三种线条 end-->
+                <!--第2行三种线条 start-->
+                <rect x="-300" y="60" width="300" height="2" stroke="white" stroke-width="0" fill="url(#Gradient1)">
+                    <animate attributeName="x" from="0" by="100%" begin="25s" dur="15s" repeatCount="indefinite"></animate>
+                </rect>
+                <!--第2行三种线条 end-->
+                <!--第3行三种线条 start-->
+                <rect x="44.4976" y="100" width="100" height="2" stroke="white" stroke-width="0" fill="url(#Gradient1)">
+                    <animate attributeName="x" from="0" by="100%" begin="5s" dur="15s" repeatCount="indefinite"></animate>
+                </rect>
+                <!--第3行三种线条 end-->
+            </g>
+        </svg>
+    </div>
+    <div class="qc-footer-service">
+        <div class="footer-service">
+            <div class="fs-list">
+                <div class="fs-ct">
+                    <a href="//www.qcloud.com/service/index#tab=refund" class="item" target="_blank">
+                        <span class="icon icon-1"></span>
+                        <span class="term">百倍故障赔偿</span>
+                    </a>
+                </div>
+                <div class="fs-ct">
+                    <a href="//www.qcloud.com/service/index#tab=refund" class="item" target="_blank">
+                        <span class="icon icon-2"></span>
+                        <span class="term">5天无理由退款</span>
+                    </a>
+                </div>
+                <div class="fs-ct">
+                    <a href="//www.qcloud.com/service/index#tab=refund" class="item" target="_blank">
+                        <span class="icon icon-3"></span>
+                        <span class="term">备案多久送多久</span>
+                    </a>
+                </div>
+                <div class="fs-ct">
+                    <a href="//www.qcloud.com/service/vip" class="item" target="_blank">
+                        <span class="icon icon-4"></span>
+                        <span class="term">1V1大客户服务</span>
+                    </a>
+                </div>
+                <div class="fs-ct item-last">
+                    <a href="//www.qcloud.com/service/index#tab=service" class="item" target="_blank">
+                        <span class="icon icon-5"></span>
+                        <span class="term">7x24小时服务</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="qc-footer-website">
+            <div class="website-columns">
+                <div class="columns ">
+                    <div class="cl-ct">
+                        <h3><a class="ct-title">常见问题</a></h3>
+                        <ul class="ct-list">
+                            <li>
+                                <a>新手专区</a>
+                            </li>
+                            <li>
+                                <a>使用指引</a>
+                            </li>
+                            <li>
+                                <a>备案帮助</a>
+                            </li>
+                            <li>
+                                <a>服务协议</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="columns ">
+                    <div class="cl-ct">
+                        <h3><a class="ct-title">热门活动</a></h3>
+                        <ul class="ct-list">
+                            <li>
+                                <a>免费试用</a>
+                            </li>
+                            <li>
+                                <a>云+公益</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="columns ">
+                    <div class="cl-ct">
+                        <h3><a class="ct-title">诚意合作</a></h3>
+                        <ul class="ct-list">
+                            <li>
+                                <a>代理招商</a>
+                            </li>
+                            <li>
+                                <a>商务合作</a>
+                            </li>
+                            <li>
+                                <a>CPS推广</a>
+                            </li>
+                            <li>
+                                <a>云+创业计划</a>
+                            </li>
+                            <li>
+                                <a>开发商服务合作</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="columns ">
+                    <div class="cl-ct">
+                        <h3><a class="ct-title">客户服务</a></h3>
+                        <ul class="ct-list">
+                            <li>
+                                <a>基础服务</a>
+                            </li>
+                            <li>
+                                <a>至尊服务</a>
+                            </li>
+                            <li>
+                                <a>许可证说明</a>
+                            </li>
+                            <li>
+                                <a>联系我们</a>
+                            </li>
+                            <li id="h_cs_list">
+                                <a class="feedback" >产品咨询与投诉</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="columns column-follow">
+                    <div class="cl-ct">
+                        <h3><a class="ct-title">关注我们</a></h3>
+                        <ul class="ct-list">
+                            <li>
+                                <a>关于我们</a>
+                            </li>
+                            <li>
+                                <a>媒体报道</a>
+                            </li>
+                            <li class="qc-footer-website-node-weibo">
+                                <a>新浪微博</a>
+                            </li>
+                            <li class="qc-footer-website-node-wechat">
+                                <a href="">关注微信公众号</a>
+                                <img src="//imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/img/home/tc-footer-qr-wechat.png">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="qc-footer-blogroll">
+            <div class="blogroll-inner">
+                <div class="link-set">
+                    <div class="department">
+                        <a class="icon-tc"></a>
+                        <a class="slide">腾讯开放平台</a>
+                        <a class="slide">QQ物联</a>
+                        <a class="slide">DNSPod</a>
+                        <a class="slide">微信公众平台</a>
+                        <a class="slide">企业QQ</a>
+                        <a class="slide">腾讯优图</a>
+                        <a class="slide">腾讯蓝鲸</a>
+                        <a class="slide">腾讯微云</a>
+                        <a class="slide">友情链接</a>
+                    </div>
+                    <div class="links">
+                        <p class="line">
+                            <span class="slide">Copyright ©2013-2017 </span><span class="slide"><span class="J-copyright-domain">Qcloud.com</span> 腾讯云版权所有</span>
+                            <a class="slide slide-ct">京公网安备 11010802020287</a>
+                            <a class="slide slide-ct">京ICP备11018762号</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="locale">
+                    <a class="locale-link">Global(English)</a>
+                    <span class="stick">|</span>
+                    <a class="locale-link">中国大陆(中文)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
